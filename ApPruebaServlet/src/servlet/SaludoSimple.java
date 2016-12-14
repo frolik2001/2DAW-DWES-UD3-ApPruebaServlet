@@ -58,6 +58,7 @@ public class SaludoSimple extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String nombre = request.getParameter("nombre");
+		String edad = request.getParameter("edad");
 		response.setContentType(CONTENT_TYPE);
 		PrintWriter out = response.getWriter();
 		out.write("<html>");
@@ -66,6 +67,8 @@ public class SaludoSimple extends HttpServlet {
 		out.write("Aplicación: "+nombreAp);
 		out.write("<br>");
 		out.write("\n¡Saludos "+ nombre + ", me alegra mucho verte!");
+		out.write("<br>");
+		out.write("Qué bueno es tener "+edad+" años.");
 		out.write("</body>");
 		out.write("</html>");
 		out.close();

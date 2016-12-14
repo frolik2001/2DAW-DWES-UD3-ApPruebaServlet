@@ -10,5 +10,3 @@ Al ser una aplicación web, se compila desde el IDE, pero se ejecuta en el servi
 ## Ejecución
 Se accede mediante la URL http://localhost:8080/pruebaservlet/saludar
 Se ha probado en **WildFly 10**
-
-Ta luego :alien: 

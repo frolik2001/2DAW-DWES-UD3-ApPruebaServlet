@@ -42,7 +42,7 @@ public class SaludoSimple extends HttpServlet {
     	System.out.println("En método init");
     	ServletContext application = config.getServletContext();
     	nombreAp = (String) application.getInitParameter("nombreAp");
-    	System.out.println("Nombre Aplicación: "+nombreAp);
+    	System.out.println("Nombre Ap: "+nombreAp);
     }
 	/**
 	 * Procesamiento de peticiones GET

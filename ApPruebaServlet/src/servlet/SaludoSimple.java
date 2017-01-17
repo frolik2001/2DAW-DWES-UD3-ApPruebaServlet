@@ -69,6 +69,7 @@ public class SaludoSimple extends HttpServlet {
 		out.write("\n¡Saludos "+ nombre + ", me alegra mucho verte!");
 		out.write("<br>");
 		out.write("¡Qué ciudad más bonita es vivir "+ciudad+"!");
+
 		out.write("</body>");
 		out.write("</html>");
 		out.close();

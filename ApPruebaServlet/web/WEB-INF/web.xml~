@@ -5,7 +5,7 @@
  <display-name>ApPruebaServlet</display-name>
  <context-param>
   <param-name>nombreAp</param-name>
-  <param-value>Prueba de Servlet</param-value>
+  <param-value>Prueba de Servlet con Nombre y Ciudad</param-value>
  </context-param>
  <servlet>
   <display-name>Saludo Simple Servlet</display-name>
